@@ -1,3 +1,5 @@
-.form-control-lg {
+.searchbar {
     border-radius: 2rem;
+    width: 80%;
+    margin: auto;
 }

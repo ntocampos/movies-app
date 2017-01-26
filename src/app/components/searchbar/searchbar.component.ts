@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./searchbar.component.css']
 })
 export class SearchbarComponent implements OnInit {
+  query: string;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onChange() {
+    console.log('onChange(): ' + this.query);
+  }
 }

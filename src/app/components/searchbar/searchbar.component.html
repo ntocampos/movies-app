@@ -1,5 +1,5 @@
 <form>
     <div class="form-group">
-        <input type="text" class="form-control form-control-lg" placeholder="Search...">
+        <input [(ngModel)]="query" type="text" name="query" class="form-control form-control-lg searchbar" (keyup)="onChange()" placeholder="Search...">
     </div>
 </form>

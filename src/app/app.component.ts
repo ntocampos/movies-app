@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SearchbarComponent } from './components/searchbar/searchbar.component'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title: string;
+  alert: IAlert;
+
+  constructor() {
+    this.title = 'This works!';
+    this.alert = {
+      type: 'success',
+      text: 'This is an alert!',
+      show: true,
+    }
+  }
+
+  closeAlert() {
+    this.alert.show = false;
+  }
+
+  optionSelected(element) {
+    console.log(element);
+
+  }
+}
+
+export interface IAlert {
+  type: string;
+  text: string;
+  show: boolean;
 }

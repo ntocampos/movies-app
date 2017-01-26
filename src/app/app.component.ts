@@ -8,30 +8,6 @@ import { DetailComponent } from './components/detail/detail.component'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string;
-  alert: IAlert;
-
   constructor() {
-    this.title = 'This works!';
-    this.alert = {
-      type: 'success',
-      text: 'This is an alert!',
-      show: true,
-    }
   }
-
-  closeAlert() {
-    this.alert.show = false;
-  }
-
-  optionSelected(element) {
-    console.log(element);
-
-  }
-}
-
-export interface IAlert {
-  type: string;
-  text: string;
-  show: boolean;
 }

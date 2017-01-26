@@ -7,12 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { ImageComponent } from './components/image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchbarComponent,
-    DetailComponent
+    DetailComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,

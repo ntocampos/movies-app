@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ImageComponent } from '../image/image.component';
 
 @Component({
   selector: 'app-detail',

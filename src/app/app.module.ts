@@ -6,11 +6,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

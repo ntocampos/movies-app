@@ -1,0 +1,12 @@
+.detail {
+    /*background-color: darkslategray;*/
+    padding: 1rem;
+    margin: 5rem 0;
+    background-color: whitesmoke;
+}
+
+.left-border {
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    border-color: indianred;
+}

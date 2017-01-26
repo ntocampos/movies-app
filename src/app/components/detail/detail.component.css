@@ -8,5 +8,6 @@
 .left-border {
     border-style: solid;
     border-width: 0 0 0 5px;
-    border-color: indianred;
+    /*border-color: indianred;*/
+    border-color: #0275d8;
 }

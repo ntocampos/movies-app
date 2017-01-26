@@ -13,5 +13,8 @@ export class ImageComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (this.src == null) {
+      this.src = "http://placehold.it/300x400";
+    }
   }
 }

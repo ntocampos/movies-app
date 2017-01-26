@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { ImageComponent } from './components/image/image.component';
+import { SpotlightComponent } from './components/spotlight/spotlight.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchbarComponent,
     DetailComponent,
-    ImageComponent
+    ImageComponent,
+    SpotlightComponent
   ],
   imports: [
     BrowserModule,
